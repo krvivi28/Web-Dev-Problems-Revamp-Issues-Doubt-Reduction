@@ -1,0 +1,21 @@
+{
+  "runtime": 408,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "Search Functionality",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "The 'POST' request to the '/search' endpoint should display filtered data that matches the name criteria using the 'searchResult.ejs' view."
+        }
+      ]
+    }
+  ]
+}
