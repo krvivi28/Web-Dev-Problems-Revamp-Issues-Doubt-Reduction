@@ -1,0 +1,31 @@
+{
+  "runtime": 429,
+  "percentageScore": 100,
+  "count": {
+    "total": 2,
+    "passed": 2
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "Secure Page Access with Express-Session",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "should restrict access to secure-page.ejs for non-logged-in users"
+        }
+      ]
+    },
+    {
+      "suiteName": "Implement secure access to the 'secure-page.ejs' view",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "The 'secure-page.ejs' view should only be accessible to users who have logged in"
+        }
+      ]
+    }
+  ]
+}
